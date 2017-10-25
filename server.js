@@ -11,6 +11,6 @@ app.listen(port);
 app.set('view engine', 'pug');
 app.set('views', './views');
 
-app.get('/hi', function(req, res){
+app.get('/', function(req, res){
   res.render('hi', {time:Date(), title:'Welcom to QuizAWS'});
 });
