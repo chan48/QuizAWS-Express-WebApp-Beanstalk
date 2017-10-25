@@ -15,7 +15,8 @@
         "url": "^0.11.0"
     },
     "scripts": {
-        "start": "nodemon --delay 4 server.js"
+        "start": "nodemon --delay 3 server.js",
+        "git-up": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push"
     },
     "devDependencies": {
         "babel-plugin-transform-react-jsx": "^6.24.1",
