@@ -4,14 +4,22 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "apollo-client": "^2.0.1",
         "express": "latest",
-        "pug": "^2.0.0-rc.4"
+        "express-graphql": "^0.6.11",
+        "graphql": "^0.11.7",
+        "graphql-tag": "^2.5.0",
+        "node-fetch": "^1.7.3",
+        "numeral": "^2.0.6",
+        "pug": "^2.0.0-rc.4",
+        "url": "^0.11.0"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon --delay 4 server.js"
     },
     "devDependencies": {
         "babel-plugin-transform-react-jsx": "^6.24.1",
-        "babel-plugin-transform-react-pug": "^3.2.0"
+        "babel-plugin-transform-react-pug": "^3.2.0",
+        "nodemon": "^1.12.1"
     }
 }
