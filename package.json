@@ -1,12 +1,17 @@
 {
-    "name": "express-template-HelloWorld",
-    "description": "Hello World Node Express web application",
+    "name": "QuizAWS-starter",
+    "description": "QuizAWS;start-ver000-1",
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "express": "latest"
+        "express": "latest",
+        "pug": "^2.0.0-rc.4"
     },
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-plugin-transform-react-pug": "^3.2.0"
     }
 }
