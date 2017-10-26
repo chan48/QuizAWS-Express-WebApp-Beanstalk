@@ -4,6 +4,7 @@ var
 app = express(),
 path = require('path'),
 publicDir = path.join(__dirname,'public');
+app.locals.pretty = true ;
 
 app.use(express.static(publicDir));
 app.listen(port);
