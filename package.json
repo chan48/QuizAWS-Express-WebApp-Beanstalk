@@ -12,7 +12,11 @@
         "node-fetch": "^1.7.3",
         "numeral": "^2.0.6",
         "pug": "^2.0.0-rc.4",
-        "url": "^0.11.0"
+        "url": "^0.11.0",
+        "prop-types": "^15.5.10",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-lines-ellipsis": "^0.7.3"
     },
     "scripts": {
         "start": "nodemon --delay 3 server.js",

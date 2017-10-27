@@ -5,11 +5,16 @@ html
     h1 QuizAWS Started with AWS-CodeStar
     
     div= time + ' : 테스트 페이지 입니다.' 
-
+    br
+    a(href='./quiz-test.html') Ver. 0.0.1
+    br
+    br
     p
-      | CodePipeLine 에서 push 된 소스를 Beanstalk 으로 바로 배포합니다.   
+      | CODEPIPELINE 을 통해 소스가 push 되면 자동으로 Beanstalk 을 통해 배포됩니다.  
     p
-      | 차후 AWS SAM 패턴으로 변경예정...
+      | AWS Cognito, DynamoDB 등... 을 연결하면서 기능 추가된 버전별로 완성예정
+    p  
+      | 차후 CloudFormation 이용하여 SAM 디자인 패턴으로 변경예정...
 
     ul
       -for(var i=0; i<5; i++)
