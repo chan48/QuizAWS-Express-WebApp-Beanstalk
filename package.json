@@ -2,10 +2,10 @@
   "name": "QuizAWS-starter",
   "version": "0.0.1",
   "description": "QuizAWS with graphql",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "nodemon index.js --ignore client",
-    "start": "node index.js",
+    "dev": "nodemon main.js --ignore client",
+    "start": "node main.js",
     "git-up": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push"
   },
   "author": "S-CHAN",
