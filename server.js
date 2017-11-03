@@ -11,8 +11,7 @@ const webpackMiddleware = require('webpack-dev-middleware');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config.js');
 const app = express();
-port = process.env.PORT || 4000;
-
+const port = process.env.PORT || 4000;
 const MONGO_URI = 'mongodb://chan:111100@ds245755.mlab.com:45755/users';
 
 mongoose.Promise = global.Promise;
