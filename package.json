@@ -41,7 +41,8 @@
         "url": "^0.11.0"
     },
     "scripts": {
-        "start": "nodemon --delay 2 index.js",
+        "dev": "nodemon index.js --ignore client",
+        "start": "node index.js",
         "git-up": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push"
     },
     "devDependencies": {
